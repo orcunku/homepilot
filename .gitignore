@@ -1,0 +1,18 @@
+# Secrets - never upload
+.env
+*.key
+
+# Database (personal data)
+homepilot.db
+
+# Vector store
+chroma_store/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Test/scratch files
+test.py
+test2.py
+test3.py
